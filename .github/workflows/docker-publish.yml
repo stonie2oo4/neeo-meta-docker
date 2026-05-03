@@ -1,7 +1,7 @@
 name: Build and Publish Neeo Meta
 
 on:
-  # 1. Automatischer Build jede Nacht um 02:00 Uhr
+  # Jeden 1. Freitag im Monat um 02:00 Uhr
   schedule:
     - cron: '0 2 1-7 * 5'
   # 2. Erlaubt es dir, den Build jederzeit manuell bei GitHub zu starten
