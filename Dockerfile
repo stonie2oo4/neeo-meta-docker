@@ -22,9 +22,6 @@ RUN npm install --omit=dev
 # 4. Verzeichnisse vorbereiten
 RUN mkdir -p active library
 
-# 5. Deine settings.js kopieren (Muss im selben Ordner wie das Dockerfile liegen)
-COPY settings.js .
-
 # Ports öffnen
 EXPOSE 3000 3100 4016
 
