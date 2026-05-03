@@ -43,6 +43,7 @@ jobs:
         with:
           context: .
           push: true
+          platforms: linux/amd64,linux/arm64,linux/arm/v7
           # Erzeugt das Image: ghcr.io/dein-name/my-neeo-meta:latest
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           # Optimierung für schnellere Builds
