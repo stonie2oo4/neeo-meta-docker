@@ -2,8 +2,8 @@ name: Build and Publish Neeo Meta
 
 on:
   schedule:
-    # Jeden 1. Freitag im Monat um 02:00 Uhr
-    - cron: '0 2 1-7 * 5'
+    # Jeden 1. im Monat um 02:00 Uhr
+    - cron: '0 2 1 * *'
   workflow_dispatch:
   push:
     branches: [ "main" ]
